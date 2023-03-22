@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Stock Prediction</title>
+</head>
+<body>
+	<h1>Stock Prediction</h1>
+	<form method="POST" action="/predict">
+		<label for="ticker">Ticker:</label>
+		<input type="text" id="ticker" name="ticker"><br>
+
+		<label for="timeframe">Timeframe:</label>
+		<input type="text" id="timeframe" name="timeframe"><br>
+
+		<label for="freq">Frequency:</label>
+		<input type="text" id="freq" name="freq"><br>
+
+		<label for="length">Length:</label>
+		<input type="text" id="length" name="length"><br>
+
+		<input type="submit" value="Submit">
+	</form>
+</body>
+</html>
